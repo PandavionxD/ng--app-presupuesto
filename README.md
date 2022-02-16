@@ -2,26 +2,32 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.2.2.
 
-## Development server
+## Descripcion del proyecto
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Este es un proyecto de presupuesto donde hay egreso e ingreso 
 
-## Code scaffolding
+## No se utilizo el modo strict
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Porque no necesitaba inicializar algunas propiedades
 
-## Build
+## Aqui aplicamos varias cosas
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Ngmodel -> formulario, comunicacion entre componentes @Input(), 
 
-## Running unit tests
+## Se aplica los servicios
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+EgresoService , IngresoService
 
-## Running end-to-end tests
+## Creamos la clase modelo en cada componente
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Egreso, Ingreso
 
-## Further help
+## Utilizamos la propiedad [ngClass]
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Para añadir un efecto css con una condicion
+
+## Utilizamos la Validacion del Formulario
+
+con la validacion del formulario no se podra añadir elementos vacios ni incorrectos eso era un problema pero con la validacion se soluciono todo este asunto
+
+# GRACIAS! =)

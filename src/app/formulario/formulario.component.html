@@ -1,0 +1,31 @@
+<form (ngSubmit)="f.form.valid &&  enviarDato()"  #f="ngForm">
+    <div class="agregar">
+        <div class="agregar_contenedor">
+            <select class="agregar_tipo" [ngClass]="{redfocus: tipo === 'egresoINput'}" (change)="agregarTipo($event)">
+                <option value="ingresoInput" selected>+</option>
+                <option value="egresoINput">-</option>
+            </select>
+            <input type="text" 
+            [ngClass]="{redfocus: tipo === 'egresoINput'}"
+            class="agregar_descripcion" 
+            placeholder="Agregar Descripción" 
+            name="descripcionInput"
+            [(ngModel)]="descripcionInput"
+            required
+            >
+
+            <input type="number" 
+            [ngClass]="{redfocus: tipo === 'egresoINput'}"
+            class="agregar_valor"
+             placeholder="Valor" 
+             name="valorInput"
+             [(ngModel)]="valorInput"
+             required>
+
+            <button class="agregar_btn">
+            <i 
+            [ngClass]="{red:tipo==='egresoINput'}"
+            class="ion-ios-checkmark-outline"></i></button>
+        </div>
+    </div>
+  </form>
