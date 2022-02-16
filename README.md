@@ -30,4 +30,8 @@ Para añadir un efecto css con una condicion
 
 con la validacion del formulario no se podra añadir elementos vacios ni incorrectos eso era un problema pero con la validacion se soluciono todo este asunto
 
+## Utilizamos los pipe
+
+Para trabajar con currency(moneda) y porcentaje () -> hay varios pipe para que te ayuden 
+
 # GRACIAS! =)
